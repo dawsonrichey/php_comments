@@ -1,26 +1,26 @@
 # PHP Comments
 
-load the comments.sql file into your desired database
+Load comments.sql code into file into database
 
-create a creds.php file
+Create creds.php file
 
 include the following variables and insert your own values
-
+```
 $DATABASE_HOST = '';
 $DATABASE_USER = '';
 $DATABASE_PASS = '';
 $DATABASE_NAME = '';
-
-
-start up the server
 ```
+
+Start server
+``` 
 php -S localhost:8225
 ```
 
-if you need to force kill the port
+Force kill the port
 ```
 sudo lsof -t -i:8225
 ```
 
 
-initial source code provided by https://codeshack.io/
+Initial source code https://codeshack.io/
